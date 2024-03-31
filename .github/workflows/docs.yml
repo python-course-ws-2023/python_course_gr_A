@@ -16,6 +16,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pandas matplotlib seaborn scikit-learn
         pip install sphinx sphinx-book-theme myst_nb sphinx_rtd_theme
+        pip install "numpydoc==1.1.0"
     - name: Build docs
       run: |
         sphinx-build -b html docs/source docs/build
