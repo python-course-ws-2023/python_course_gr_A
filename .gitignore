@@ -8,11 +8,16 @@ modules.ipynb
 submission.csv
 docs/source/notebooks/usage_example.ipynb
 venv/
+__pycache__
+
 *.o
 *.out
 *~
 *.log
 *.xml
 *.iml
-/dist/
+dist/
 **/.ipynb_checkpoints/
+.DS_Store
+testing_def_encap.ipynb
+.idea
