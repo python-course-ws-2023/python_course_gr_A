@@ -6,4 +6,13 @@ Untitled1.ipynb
 testing_no_def_encap.ipynb
 modules.ipynb
 submission.csv
-/docs/source/notebooks/usage_example.ipynb
+docs/source/notebooks/usage_example.ipynb
+venv/
+*.o
+*.out
+*~
+*.log
+*.xml
+*.iml
+/dist/
+**/.ipynb_checkpoints/

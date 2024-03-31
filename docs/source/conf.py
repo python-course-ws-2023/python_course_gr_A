@@ -35,22 +35,16 @@ language = 'English'
 exclude_patterns = []
 
 # -- Options for HTML output -------------------------------------------------
-
 # The theme to use for HTML and HTML Help pages.  See the documentation for
+
 html_theme = 'sphinx_rtd_theme'
-
-
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
+html_title = "Titanic Survival Package"
 html_static_path = ['_static']
 
-"""
-# Configuration for MyST-NB (Markdown and Jupyter Notebook execution)
-# Increase the notebook cell execution timeout to 600 seconds (10 minutes)
-myst_nb_execution_timeout = 600  # Timeout in seconds, e.g., 600 seconds = 10 minutes
+# do not execute jupyter notebooks when building docs
+nb_execution_mode = "off"
 
-# Apply the execution timeout to MyST-NB
-jupyter_execute_notebooks = "force"
-execution_timeout = myst_nb_execution_timeout
-"""
+# download notebooks as .ipynb and not as .ipynb.txt
+html_sourcelink_suffix = ""
+
+
