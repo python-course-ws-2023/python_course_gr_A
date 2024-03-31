@@ -5,7 +5,6 @@
 
 import os
 import sys
-import sphinx_rtd_theme
 sys.path.insert(0, os.path.abspath('/Users/bekzodamonov/Library/CloudStorage/GoogleDrive-bekzod.amonov.study@gmail.com/My Drive/TU DORTMUND/Introduction with Python/final-project-submit/titanic_survival_package/'))
 
 # -- Project information -----------------------------------------------------
@@ -38,9 +37,6 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-#
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_theme = 'sphinx_rtd_theme'
 
 
