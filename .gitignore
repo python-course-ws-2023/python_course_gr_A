@@ -20,4 +20,4 @@ dist/
 **/.ipynb_checkpoints/
 .DS_Store
 testing_def_encap.ipynb
-.idea
+.idea.DS_Store
